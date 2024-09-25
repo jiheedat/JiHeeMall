@@ -1,5 +1,5 @@
-# JiHeeMall
 Spring Framework + MyBatis 기반의 쇼핑몰
+
 개인 프로젝트 (2024/ 08~ 2024/09)
 
 목표 ) Ajax 활용과 다양한 API 구현해보기
