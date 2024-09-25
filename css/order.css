@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+.fl { float:left; }
+.fr { float:right; }
+.bd { border:1px solid red; }
+
+body {
+	font-family: 'Roboto KR', sans-serif;
+	height:100%;
+}
+
+#wrap {
+	width:100%;
+	border:1px solid #f1f1f1;
+	
+}
+
+#titleArea {
+	width:1260px;
+	min-height:58px;
+	text-align: center;
+    margin: 60px auto;
+}
+
+#titleArea > h1 {
+	display: inline-block;
+    color: #2e2e2e;
+    font-size: 40px;
+    letter-spacing: -1.5px;
+    font-weight: bold;
+    font-family: 'Roboto KR', sans-serif;
+}
+
+#orderList {
+	width:1260px;
+	min-height:230px;
+	margin:50px auto;
+	border:1px solid #d7d5d5;
+}
+
+#orderList > div:nth-child(1) {
+    height: 38px;
+    margin: 0;
+    padding: 0 0 0 9px;
+    border: 1px solid #d7d5d5;
+    border-bottom: 0;
+    line-height: 38px;
+    background: #f6f6f6;
+}
+
+#orderHeader {
+	color: #353535;
+    font-size: 12px;
+}
+
+#orderTable {
+    border: 1px solid #d7d5d5;
+    line-height: 1.5;
+}
+
+#orderTitle {
+	width:1260px;
+	height:40px;
+	background-color:rgb(251, 250, 250);
+	border-top:1px solid #777;
+	border-bottom:1px solid #777;
+}
+
+#orderTitle th {
+	text-align:center;
+}
+#orderTitle>th:nth-child(1) {
+	width:50px;
+}
+
+#orderTitle>th:nth-child(2) {
+	width:120px;
+}
+
+#orderTitle>th:nth-child(3) {
+	width:630px;
+}
+
+#orderTitle>th:nth-child(4) {
+	width:150px;
+}
+
+#orderTitle>th:nth-child(5) {
+	width:100px;
+}
+
+#orderTitle>th:nth-child(6) {
+	width:210px;
+}
+
+.order_item {
+	width:1260px;
+	height:115px;
+	text-align: center;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.order_item>th:nth-child(1) {
+	width:50px;
+}
+
+.order_item>th:nth-child(2) {
+	width:120px;
+}
+
+.order_item>th:nth-child(3) {
+	width:630px;
+}
+
+.order_item>th:nth-child(4) {
+	widthL150px;
+}
+
+.order_item>th:nth-child(5) {
+	width:100px;
+}
+
+.order_item>th:nth-child(6) {
+	width:205px;
+}
+
+.order-table tfoot td {
+    font-weight: bold;
+    text-align: right;
+    padding: 15px;
+}
+
+#item_delete {
+	width:1260px;
+	height:24px;
+    padding: 10px 0 50px;
+}
+
+#item_delete>span {
+	margin-left:10px;
+}
+#delivery_head {
+	width:1260px;
+	min-height:20px;
+	margin: 20px auto;
+	position:relative;
+}
+
+
+#delivery_head>div:nth-child(1) {
+	margin-top:10px;
+} 
+
+#delivery_head>div:nth-child(2) { position:absolute;}
+
+#delivery_head>div:nth-child(2)>img {
+    margin-top: 15px;
+    margin-left: 60px;
+    width: 8px;
+}
+
+#delivery_head { 
+    font-weight:700;
+    font-size:15px;
+}
+
+#delivery {
+	width:1260;
+	height:230px;
+	margin:10px auto;
+}
+
+#delivery_t {
+	width:1260px;
+}
+
+#delivery_t>tbody>tr {
+	width:1260px;
+}
+
+#delivery_t>tbody>tr>th {
+	width:140px;
+    padding: 11px 0 10px 18px;
+    border: 1px solid #dfdfdf;
+    border-right: 0;
+    border-bottom-width: 0;
+    color: #353535;
+    text-align: left;
+    font-weight: normal;
+    background-color: #fbfafa;
+}
+
+#delivery_t>tbody>tr>td {
+    padding: 10px 10px 9px;
+	width:1100px;
+	border: 1px solid #dfdfdf;
+}
+
+input[type="text"] {
+	height: 25px;
+    line-height: 20px;
+    padding: 2px 4px;
+    border: 1px solid #d5d5d5;
+    color: #353535;
+    font-size: 12px;
+}
+
+input[name="detail"],
+input[name="rest"] {
+	width:450px;
+	margin:5px 10px;
+} 
+
+input[name="number"] {
+	width:300px;
+}
+
+#pay_title {
+	width:1260px;
+	height:20px;
+    font-weight:700;
+    margin-top: 130px;
+    margin-bottom: 15px;
+    margin-left: 171px;
+}
+
+#pay_area {
+	width:1260px;
+	height:180px;
+    margin: 20px auto;
+    position:relative;
+    border:1px solid #777;
+}
+
+#pay_area>div:nth-child(1)>span {
+	font-size:15px;
+	font-weight:700;
+}
+
+#pay_area>div:nth-child(2) {
+	width:640px;
+	min-height:163px;
+    text-align: right;
+    background: #fbfafa;
+    margin-top: 25px;
+    position:absolute;
+    top: -25px;
+    right: 0px;
+    border-left:2px solid black;
+}
+
+#pay_area>div:nth-child(2)>div:nth-child(1) {
+	font-size: 20px;
+    margin-top: 25px;
+    font-weight:700;
+    margin-right:65px;
+}
+
+#pay_area>div:nth-child(2)>div:nth-child(2) {
+    width: 530px;
+    color: #008bcc;
+    font-size: 28px;
+    font-weight: bold;
+    background: #fbfafa;
+    margin:3 0 5 42;
+}
+
+.kakao {
+	width:618px;
+	border-bottom:1px solid gray;
+	padding:10 10;
+	
+}
+
+#pay_area>div:nth-child(2)>div:nth-child(3) { 
+	margin-right:20px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
